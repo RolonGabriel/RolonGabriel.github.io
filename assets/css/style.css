@@ -926,7 +926,7 @@ Home Section style
 }
 .home_text h1{
     font-family: 'gothamregular';
-    font-size:100px;
+    font-size:130px;
     line-height: 5.5rem;
 }
 .home_text h4{
@@ -1098,11 +1098,11 @@ About us section style
     margin-right: 5px;
 }
 .about_left_item img{
-    box-shadow: 10px -10px 0px 10px #e0ecf0;
+    box-shadow: 15px -5px 0px 0px #e0ecf0;
 }
 
 .about_socail li a i{
-    color:#e0ecf0;
+    color:#408c4d;
 }
 .about_socail li a:hover i{
     color:#81858f;
@@ -1124,7 +1124,7 @@ Portfolio Section style
     margin-top:180px;
 }
 .branding img{
-    box-shadow: 10px 10px 0px 0px #e0ecf0;
+    box-shadow: 5px 5px 5px 5px #e0ecf0;
 }
 
 .client_brand ul li{
