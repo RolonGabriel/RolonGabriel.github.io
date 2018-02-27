@@ -1222,3 +1222,33 @@ Footer Section style
     padding: 0px 10px;
     color: #667189;
 }
+
+
+
+	
+		.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  }
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: #76b73e;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+
+
+		
