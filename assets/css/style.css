@@ -895,6 +895,9 @@ Nav Menu style
     padding: 30px 15px;
     font-family: 'Knewave', cursive;
     font-size:48px;
+	color:#689e1f;
+	font-color:#689e1f;
+	
 }
 .main-nav li{
     padding: 10px 0;
@@ -911,9 +914,7 @@ Home Section style
     height: 1000px;
 }
 .main_home{
-    overflow: hidden;
-    padding-top: 350px;
-    padding-bottom: 450px;
+	max-height:450px;
 }
 .home-shadow {
     position: relative;
@@ -926,7 +927,7 @@ Home Section style
 }
 .home_text h1{
     font-family: 'gothamregular';
-    font-size:130px;
+    font-size:90px;
     line-height: 5.5rem;
 }
 .home_text h4{
@@ -938,6 +939,13 @@ Home Section style
     color:#404859;
     border-color:#fff;
 }
+
+.btn_cardsview{
+    background-color: #76b73e;
+    color:#fffff;
+    border-color:#fff;
+}
+
 .home_btns .btn-primary:hover{
     background-color: #667189;
     color:#fff;
@@ -1175,7 +1183,7 @@ Footer Section style
     transform: rotate(-90deg);
 }
 .head_right h2{
-    color:#e0ecf0;
+    color:#76b73e;
 }
 .choose_item .head_right{
     top: -100px;
@@ -1198,6 +1206,18 @@ Footer Section style
     font-size:18px;
     font-family: 'gotham_boldregular';
 }
+
+.text_works{
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #76b73e;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;}
+	
+	
 
 .author_text h5,
 .author_text h6{
